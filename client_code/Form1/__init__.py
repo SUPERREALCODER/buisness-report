@@ -20,3 +20,11 @@ class Form1(Form1Template):
   def text_box_2_pressed_enter(self, **event_args):
     """This method is called when the user presses Enter in this text box"""
     pass
+
+  def text_box_1_pressed_enter(self, **event_args):
+    """This method is called when the user presses Enter in this text box"""
+    pass
+
+  def primary_color_1_click(self, **event_args):
+    """This method is called when the button is clicked"""
+    pass
