@@ -1,7 +1,11 @@
 allow_embedding: false
-package_name: Material_Design_1
-name: Material Design 1
+package_name: Buisness_report
+name: Buisness_report
 startup_form: Form1
 runtime_options: {version: 2, client_version: '3', server_version: python3-sandbox,
   server_spec: null}
-services: []
+metadata: {title: Study_report, description: This aim helps to give answers to the questions from a annual report of compainies}
+services:
+- source: /runtime/services/tables.yml
+  client_config: {}
+  server_config: {}
