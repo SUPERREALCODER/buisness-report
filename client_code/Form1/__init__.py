@@ -12,3 +12,11 @@ class Form1(Form1Template):
   def file_loader_1_change(self, file, **event_args):
     """This method is called when a new file is loaded into this FileLoader"""
     pass
+
+  def primary_color_1_show(self, **event_args):
+    """This method is called when the Button is shown on the screen"""
+    pass
+
+  def text_box_2_pressed_enter(self, **event_args):
+    """This method is called when the user presses Enter in this text box"""
+    pass
